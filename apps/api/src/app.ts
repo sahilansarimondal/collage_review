@@ -1,7 +1,7 @@
 import express from "express";
-import itemRoutes from "./routes/itemRoutes";
-import healthRoute from "./routes/helthRoute";
-import { errorHandler } from "./middlewares/errorHandler";
+import itemRoutes from "./routes/item.routes";
+import healthRoute from "./routes/health.routes";
+import { errorHandler } from "./middlewares/error.handler";
 
 const app = express();
 app.use(express.json());
